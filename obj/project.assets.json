@@ -2302,6 +2302,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.6",
+      "MySqlConnector >= 2.3.5",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2"
     ]
   },
@@ -2364,6 +2365,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.3.5, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
